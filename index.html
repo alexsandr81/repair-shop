@@ -9,12 +9,14 @@
 <meta name="theme-color" content="#2A1B12">
 <link rel="canonical" href="https://alexsandr81.github.io/repair-shop/">
 <link rel="alternate" hreflang="uk" href="https://alexsandr81.github.io/repair-shop/">
+<link rel="alternate" hreflang="ru" href="https://alexsandr81.github.io/repair-shop/ru/">
 <link rel="alternate" hreflang="x-default" href="https://alexsandr81.github.io/repair-shop/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="uk_UA">
+<meta property="og:locale:alternate" content="ru_RU">
 <meta property="og:site_name" content="Майстерня з ремонту сумок">
 <meta property="og:title" content="Ремонт сумок, валіз, рюкзаків і парасольок у Дніпрі">
 <meta property="og:description" content="Ремонт і пошиття, ручки на замовлення, ключі, люверси, кнопки та заклепки. Просп. Яворницького, 115, Дніпро.">
@@ -69,8 +71,8 @@
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Saturday",
-          "opens": "08:00",
-          "closes": "16:00"
+          "opens": "09:00",
+          "closes": "18:00"
         }
       ],
       "hasOfferCatalog": {
@@ -118,7 +120,7 @@
         {
           "@type": "Question",
           "name": "Який графік роботи?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Вівторок–п'ятниця з 8:00 до 17:00, субота з 8:00 до 16:00. Неділя та понеділок — вихідні." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Вівторок–п'ятниця з 8:00 до 17:00, субота з 9:00 до 18:00. Неділя та понеділок — вихідні." }
         },
         {
           "@type": "Question",
@@ -170,6 +172,11 @@ p{margin:0}
 .nav{display:flex;flex-wrap:wrap;gap:4px 26px}
 .nav a{text-decoration:none;font-weight:500;padding:10px 0}
 .nav a:hover{color:var(--brass-text)}
+.bar-right{display:flex;align-items:center;gap:14px}
+.lang{display:inline-flex;border:2px solid var(--ink);border-radius:999px;overflow:hidden;font-weight:700;font-size:14px;letter-spacing:.06em}
+.lang a,.lang span{display:inline-flex;align-items:center;justify-content:center;min-width:46px;min-height:40px;padding:0 10px;text-decoration:none}
+.lang .on{background:var(--ink);color:var(--paper)}
+.lang a:hover{background:var(--tile)}
 
 /* Герой */
 .hero{display:flex;flex-wrap:wrap;align-items:center;gap:48px;padding-top:56px;padding-bottom:72px}
@@ -262,7 +269,8 @@ p{margin:0}
   .bar{padding-top:12px;padding-bottom:6px}
   .brand{font-size:19px}
   .site-header .btn{display:none}
-  .nav{flex-wrap:nowrap;overflow-x:auto;width:100%;gap:0 22px;padding-bottom:4px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .bar-right{order:2;margin-left:auto}
+  .nav{order:3;flex-wrap:nowrap;overflow-x:auto;width:100%;gap:0 22px;padding-bottom:4px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
   .nav::-webkit-scrollbar{display:none}
   .nav a{white-space:nowrap}
   .hero{gap:32px;padding-top:32px;padding-bottom:48px}
@@ -306,7 +314,13 @@ p{margin:0}
       <a href="#faq">Запитання</a>
       <a href="#contacts">Контакти</a>
     </nav>
-    <a class="btn btn-dark" href="tel:+380664219497">066 421 94 97</a>
+    <div class="bar-right">
+      <div class="lang" role="group" aria-label="Мова сайту">
+        <span class="on" lang="uk" aria-current="true">UA</span>
+        <a href="ru/" hreflang="ru" lang="ru" title="Русский">RU</a>
+      </div>
+      <a class="btn btn-dark" href="tel:+380664219497">066 421 94 97</a>
+    </div>
   </div>
 </header>
 
@@ -322,7 +336,7 @@ p{margin:0}
         <a class="btn btn-brass" href="tel:+380664219497">Зателефонувати</a>
         <a class="btn btn-ghost" href="#contacts">Як нас знайти</a>
       </div>
-      <p class="note">Запис не потрібен: принесіть річ, ми подивимося на неї й одразу скажемо ціну. Працюємо вт–пт 8:00–17:00, сб 8:00–16:00.</p>
+      <p class="note">Запис не потрібен: принесіть річ, ми подивимося на неї й одразу скажемо ціну. Працюємо вт–пт 8:00–17:00, сб 9:00–18:00.</p>
       <ul class="chips" aria-label="З чим працюємо">
         <li>Сумки</li><li>Валізи</li><li>Рюкзаки</li><li>Парасольки</li><li>Ключі</li><li>Фурнітура</li>
       </ul>
@@ -621,7 +635,7 @@ p{margin:0}
         </details>
         <details>
           <summary>Який графік роботи?</summary>
-          <p>Вівторок–п'ятниця з 8:00 до 17:00, субота з 8:00 до 16:00. Неділя та понеділок — вихідні.</p>
+          <p>Вівторок–п'ятниця з 8:00 до 17:00, субота з 9:00 до 18:00. Неділя та понеділок — вихідні.</p>
         </details>
         <details>
           <summary>Чи можна замовити ручку за зразком?</summary>
@@ -656,7 +670,7 @@ p{margin:0}
             <table class="hours">
               <tbody>
                 <tr><th scope="row">Вівторок–п'ятниця</th><td>8:00–17:00</td></tr>
-                <tr><th scope="row">Субота</th><td>8:00–16:00</td></tr>
+                <tr><th scope="row">Субота</th><td>9:00–18:00</td></tr>
                 <tr class="off"><th scope="row">Неділя, понеділок</th><td>вихідні</td></tr>
               </tbody>
             </table>

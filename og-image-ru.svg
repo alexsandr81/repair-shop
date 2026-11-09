@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#2A1B12"/>
+  <rect x="24" y="24" width="1152" height="582" rx="28" fill="none" stroke="#C08A3E" stroke-width="2" stroke-dasharray="10 10"/>
+  <text x="70" y="120" font-family="DejaVu Serif, Georgia, serif" font-weight="700" font-size="30" letter-spacing="4" fill="#C08A3E">МАСТЕРСКАЯ · ДНЕПР</text>
+  <text x="70" y="215" font-family="DejaVu Serif, Georgia, serif" font-weight="700" font-size="62" fill="#F4EDE3">Ремонт сумок,</text>
+  <text x="70" y="290" font-family="DejaVu Serif, Georgia, serif" font-weight="700" font-size="62" fill="#F4EDE3">чемоданов</text>
+  <text x="70" y="365" font-family="DejaVu Serif, Georgia, serif" font-weight="700" font-size="62" fill="#F4EDE3">и рюкзаков</text>
+  <text x="70" y="435" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" fill="#CDBBA3">Зонты · ручки · ключи · люверсы</text>
+  <text x="70" y="540" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="32" fill="#F4EDE3">просп. Яворницкого, 115</text>
+  <text x="70" y="584" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" fill="#C08A3E">066 421 94 97 · 066 555 55 55</text>
+  <g transform="translate(690 80) scale(1)">
+    <circle cx="250" cy="240" r="205" fill="#EADBC6"/>
+    <path d="M162 176 C162 66 338 66 338 176" fill="none" stroke="#2A1B12" stroke-width="18" stroke-linecap="round"/>
+    <path d="M98 172 H402 L432 380 Q435 402 413 402 H87 Q65 402 68 380 Z" fill="#7A4A2A"/>
+    <path d="M98 172 H402 L414 254 Q250 306 86 254 Z" fill="#8F5A33"/>
+    <path d="M112 188 H388 L397 240 Q250 284 103 240 Z" fill="none" stroke="#E8C98F" stroke-width="3" stroke-dasharray="10 8"/>
+    <rect x="226" y="250" width="48" height="58" rx="9" fill="#C08A3E"/>
+    <rect x="238" y="262" width="24" height="34" rx="5" fill="#2A1B12"/>
+    <path d="M110 340 H390" stroke="#E8C98F" stroke-width="2.5" stroke-dasharray="9 7"/>
+    <circle cx="120" cy="318" r="8" fill="#C08A3E"/><circle cx="380" cy="318" r="8" fill="#C08A3E"/>
+  </g>
+</svg>
