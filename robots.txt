@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alexsandr81.github.io/repair-shop/sitemap.xml
